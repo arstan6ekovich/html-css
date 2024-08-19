@@ -1,0 +1,35 @@
+.content input {
+  display: none;
+}
+
+.content-label {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.content img {
+  width: 200px;
+  display: none;
+}
+
+#html:checked ~ .html,
+#css:checked ~ .css,
+#js:checked ~ .js,
+#react:checked ~ .react {
+  display: block;
+}
+
+#all:checked ~ img {
+    display: block;
+}
